@@ -1,7 +1,7 @@
 # Web-Promosi-Pariwisata-Kepri
 # Explore Kepri 🌴
 
-**Explore Kepri** adalah website informasi destinasi, event, dan promosi menarik di Kepulauan Riau. Website ini dirancang dengan tampilan yang modern, responsif, dan user-friendly, cocok diakses dari desktop maupun perangkat mobile.
+**Explore Kepri** adalah website informasi destinasi, event, dan promosi menarik di Kepulauan Riau. Website ini dirancang dengan tampilan yang modern, responsif, dan user-friendly, cocok diakses dari desktop maupun perangkat mobile (sedang tahap pengeembangan).
 
 ## ✨ Fitur Utama
 
@@ -10,7 +10,7 @@
 - Dark/Light Mode toggle yang konsisten di semua halaman.
 - Pagination dan Filter lanjutan berdasarkan kategori & tanggal.
 - Halaman Kontak interaktif untuk pengunjung mengirim pesan.
-- Navigasi responsif dengan hamburger menu di mobile view.
+- Navigasi responsif dengan hamburger menu di mobile view (sedang tahap pengeembangan).
 
 ## 📁 Struktur Proyek
 
@@ -20,9 +20,6 @@
 ├── script.js # Interaksi DOM (pagination, toggle mode, dsb)
 ├── data.json # Data konten (event, destinasi, promosi)
 
-yaml
-Copy
-Edit
 
 ## 💡 Cara Menjalankan
 
