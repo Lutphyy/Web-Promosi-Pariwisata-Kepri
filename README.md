@@ -5,7 +5,7 @@
 
 ## ✨ Fitur Utama
 
-- Halaman Beranda dengan daftar artikel/event/promosi.
+- Halaman Beranda dengan daftar artikel/event/promosi/destinasi.
 - Fitur "Baca Selengkapnya" untuk melihat detail setiap item.
 - Dark/Light Mode toggle yang konsisten di semua halaman.
 - Pagination dan Filter lanjutan berdasarkan kategori & tanggal.
