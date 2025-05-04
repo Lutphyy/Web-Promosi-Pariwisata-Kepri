@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "cat": "promosi",
+      "date": "2025-04-15",
+      "title": "Kepri Expo: Ajang Promosi Keindahan Bahari Kepri",
+      "img": "https://rumahukm.com/wp-content/uploads/2016/09/kepri.jpg",
+      "badge": "Promosi",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "cat": "destinasi",
+      "date": "2025-03-10",
+      "title": "Wisata Pulau Penyengat: Jejak Sejarah di Kepri",
+      "img": "https://cdn.grid.id//crop/0x0:0x0/360x240/photo/2019/01/29/27652943.jpeg",
+      "badge": "Destinasi",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "cat": "event",
+      "date": "2024-12-07",
+      "title": "Festival 9 Naga di Tanjungpinang Perayaan Budaya Gaet Perhatian Warga",
+      "img": "https://www.tanjungpinangkota.go.id/images/berita/big/naga.jpg",
+      "badge": "Event",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "cat": "promosi",
+      "date": "2025-06-01",
+      "title": "Mengenal Gonggong, Kuliner Khas Kepulauan Riau yang Mendunia",
+      "img": "https://cdn.idntimes.com/content-images/community/2018/01/gonggong-8f9604e4729d28a98e38323bda8bf76c_600x400.jpg",
+      "badge": "Promosi",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "cat": "destinasi",
+      "date": "2025-02-28",
+      "title": "Telaga Biru Bintan, Pesona Tersembunyi di Balik Gurun Pasir yang Menakjubkan",
+      "img": "https://ik.imagekit.io/tvlk/blog/2024/09/shutterstock_2475148685.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2",
+      "badge": "Destinasi",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "cat": "destinasi",
+      "date": "2025-07-15",
+      "title": "Pantai Trikora, Selalu Jadi Pilihan Warga Pulau Bintan untuk Liburan Akhir Pekan",
+      "img": "https://www.trikorabeachclub.com/wp-content/uploads/sites/269/2025/04/DSC_2031.jpg",
+      "badge": "Destinasi",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "cat": "promosi",
+      "date": "2025-08-05",
+      "title": "Karimun Kecil Kaya Habitat Keanekaragaman Potensi Biota Laut",
+      "img": "https://melayupedia.com/foto_berita/2021/11/2021-11-24-5-fakta-karimun-yang-harus-kamu-ketahui.jpg",
+      "badge": "Promosi",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "cat": "promosi",
+      "date": "2025-01-22",
+      "title": "Akau Potong Lembu, Pusat Kuliner Legendaris di Tanjungpinang",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdxJciuylFc7mBDA_beG9qZuwsxouPoW9QCw&s",
+      "badge": "Promosi",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "cat": "event",
+      "date": "2019-09-10",
+      "title": "Festival Bahari Kepri 2019 Ajang Promosikan Budaya Melayu",
+      "img": "https://www.beritadaerah.co.id/wp-content/uploads/2019/11/Festival-Bahari-Kepri-2019-Ajang-Promosikan-Budaya-Melayu.jpg",
+      "badge": "Event",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "cat": "destinasi",
+      "date": "2025-04-01",
+      "title": "Mengenal Sejarah Tanjungpinang di Museum Sultan Sulaiman Badrul Alamsyah",
+      "img": "https://museum.co.id/wp-content/uploads/2020/09/museum-sultan-sulaiman-badrul-alam-syah-2.jpeg",
+      "badge": "Destinasi",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "cat": "event",
+      "date": "2024-04-04",
+      "title": "Menggali Budaya Melayu Melalui Festival Pulau Penyengat",
+      "img": "https://picture.triptrus.com/image/2019/01/penyengat-2jpg-wdjqe.jpg",
+      "badge": "Event",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "cat": "event",
+      "date": "2019-04-01",
+      "title": "Pawai Budaya dan Mobil Hias Meriahkan Hari Jadi Kota Otonom Tanjungpinang",
+      "img": "https://www.tanjungpinangkota.go.id/images/berita/big/pawai%204.JPG",
+      "badge": "Event",
+      "link": "#"
+    }
+  ]
+  

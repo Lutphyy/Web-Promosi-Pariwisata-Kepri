@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promosi Pariwisata & Ekonomi Kreatif Kepri</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">Explore Kepri</a>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Pariwisata Kepri</h1>
+      <p>Seputar Informasi Pariwisata Yang Ada di Kepulauan Riau</p>
+      <input type="search" id="searchInput" placeholder="Pencarian..." />
+      <select id="sortSelect" class="sort-select" aria-label="Sort by date">
+        <option value="newest">Terbaru</option>
+        <option value="oldest">Terlama</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="filters">
+    <div class="container">
+      <button class="filter-btn active" data-cat="all">Semua</button>
+      <button class="filter-btn" data-cat="event">Event</button>
+      <button class="filter-btn" data-cat="destinasi">Destinasi</button>
+      <button class="filter-btn" data-cat="promosi">Promosi</button>
+    </div>
+  </section>
+
+  <section class="articles">
+    <div class="container" id="cardsContainer">
+      <!-- kartu akan ter-render di sini -->
+    </div>
+
+    <!-- Pagination -->
+    <div class="container" id="pagination" style="text-align:center; margin-top:1rem;">
+      <!-- tombol page akan dibuat oleh JS -->
+    </div>
+  </section>
+
+  <section id="kontak" class="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <h2>Kontak Kami</h2>
+        <p><strong>Email:</strong> <a href="mailto:luthfihesyapratama@gmail.com">luthfihesyapratama@gmail.com</a></p>
+        <p><strong>Telepon:</strong> <a href="tel:+6282391013607">+62 823-9101-3607</a></p>
+        <p><strong>Alamat:</strong> Kota Tanjungpinang, Provinsi Kepulauan Riau, Indonesia</p>
+      </div>
+      <form class="contact-form">
+        <h2>Kirim Pesan</h2>
+
+        <label for="senderEmail">Email Anda</label>
+        <input
+          type="email"
+          id="senderEmail"
+          name="senderEmail"
+          placeholder="Email Anda"
+          required
+        />
+
+        <label for="message">Pesan</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Tulis pesan Anda di sini..."
+          required
+        ></textarea>
+        <button type="submit" class="btn-send">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <small>© 2025 Project Promosi Pariwisata</small>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+      const hash = window.location.hash;
+      if (hash === '#kontak') {
+        const el = document.getElementById('kontak');
+        if (el) {
+          // tambahkan sedikit delay buat memastikan posisi sudah benar
+          setTimeout(() => {
+            el.scrollIntoView({ behavior: 'smooth' });
+          }, 100);
+        }
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
