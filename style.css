@@ -34,6 +34,7 @@ body {
   line-height:1.6;
   background: var(--bg);
   color: var(--fg);
+  padding-top: 4rem;
 }
 
 .container {
@@ -44,7 +45,12 @@ body {
 
 /* Header & Nav */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: var(--header-bg);
+  z-index: 1000;
 }
 .header-container {
   display:flex;
@@ -316,3 +322,76 @@ body.detail .card img {
   }
 }
 
+/* --- MENU HAMBURGER MOBILE --- */
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--nav-link);
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* side menu hidden by default */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -80vw;            /* sembunyikan penuh di kiri */
+  width: 80vw;            /* tutup 80% layar */
+  max-width: 300px;
+  height: 100%;
+  background: var(--header-bg);
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+  transition: left .3s ease-in-out;
+  z-index: 1000;
+}
+.mobile-menu.open {
+  right: 0;
+}
+.mobile-menu .close-menu {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--nav-link);
+  display: block;
+  margin-left: auto;
+}
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+.mobile-menu li + li {
+  margin-top: 1rem;
+}
+.mobile-menu a {
+  color: var(--nav-link);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+}
+.theme-toggle-mobile {
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--nav-link);
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+/* hide desktop nav on small screens, show hamburger */
+@media (max-width: 768px) {
+  .desktop-nav { display: none; }
+  .menu-toggle { display: block; }
+}
+
+/* CARD STACKING: di grid sudah auto-fit, tapi untuk < 600px kita paksa 1 kolom */
+@media (max-width: 600px) {
+  .articles .container {
+    display: block;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
