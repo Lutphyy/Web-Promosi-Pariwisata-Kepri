@@ -10,7 +10,11 @@
   <header>
     <div class="container header-container">
       <a href="#" class="logo">Explore Kepri</a>
-      <nav>
+
+      <!-- tombol hamburger, hanya muncul di mobile -->
+      <button id="menuToggle" class="menu-toggle" aria-label="Buka menu">☰</button>
+
+      <nav class="desktop-nav">
         <ul>
           <li><a href="#">Beranda</a></li>
           <li><a href="#kontak">Kontak</a></li>
@@ -18,7 +22,19 @@
         <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">🌙</button>
       </nav>
     </div>
+
+    <!-- side menu untuk mobile -->
+    <aside id="mobileMenu" class="mobile-menu">
+      <button id="closeMenu" class="close-menu" aria-label="Tutup menu">×</button>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+     </ul>
+     <!-- bisa letakkan tombol theme di sini juga -->
+     <button id="themeToggleMobile" class="theme-toggle-mobile" aria-label="Toggle Dark/Light Mode">🌙</button>
+    </aside>
   </header>
+
 
   <section class="hero">
     <div class="container">
