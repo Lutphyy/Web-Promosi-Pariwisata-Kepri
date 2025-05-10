@@ -7,17 +7,29 @@
 </head>
 <body class="detail">
   <header>
-    <div class="container header-container">
-      <a href="index.html" class="logo">Explore Kepri</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="index.html#kontak">Kontak</a></li>
-        </ul>
-        <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">🌙</button>
-      </nav>
-    </div>
-  </header>
+  <div class="container header-container">
+    <a href="#" class="logo">Explore Kepri</a>
+
+    <button id="menuToggle" class="menu-toggle" aria-label="Buka menu">☰</button>
+
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="index.html#kontak">Kontak</a></li>
+      </ul>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">🌙</button>
+    </nav>
+  </div>
+
+  <aside id="mobileMenu" class="mobile-menu">
+    <button id="closeMenu" class="close-menu" aria-label="Tutup menu">×</button>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="index.html#kontak">Kontak</a></li>
+    </ul>
+    <button id="themeToggleMobile" class="theme-toggle-mobile" aria-label="Toggle Dark/Light Mode">🌙</button>
+  </aside>
+</header>
 
   <section class="articles">
     <div class="container" id="detailContainer">
