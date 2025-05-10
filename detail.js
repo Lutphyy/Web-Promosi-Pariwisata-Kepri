@@ -49,3 +49,26 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(err => console.error('Error loading JSON:', err));
   });
+
+// ===== MOBILE MENU TOGGLE =====
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeMenu  = document.getElementById('closeMenu');
+
+// buka/tutup
+menuToggle.addEventListener('click', () => mobileMenu.classList.add('open'));
+closeMenu .addEventListener('click', () => mobileMenu.classList.remove('open'));
+
+// auto-close saat link diklik
+document.querySelectorAll('#mobileMenu ul a')
+  .forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+  }));
+
+// mirror theme toggle (jika di detail juga pakai toggle tema)
+const themeToggleMobile = document.getElementById('themeToggleMobile');
+if (themeToggleMobile) {
+  themeToggleMobile.addEventListener('click', () => {
+    document.getElementById('themeToggle').click();
+  });
+}
