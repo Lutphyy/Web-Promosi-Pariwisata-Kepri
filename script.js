@@ -153,3 +153,33 @@ document.addEventListener('DOMContentLoaded', () => {
     updateDisplay();
   });
 });
+
+// =======================
+// Mobile menu toggle
+// =======================
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeMenu = document.getElementById('closeMenu');
+
+// buka side menu
+menuToggle.addEventListener('click', () => {
+  mobileMenu.classList.add('open');
+});
+
+// tutup side menu
+closeMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+});
+
+// juga toggle tema di mobile (mirror themeToggle)
+const themeToggleMobile = document.getElementById('themeToggleMobile');
+themeToggleMobile.addEventListener('click', () => {
+  themeToggle.click();
+});
+
+const mobileLinks = document.querySelectorAll('#mobileMenu ul a');
+mobileLinks.forEach(link =>
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+  })
+);
